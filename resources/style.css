@@ -1,0 +1,58 @@
+body span:hover {
+    cursor: pointer;
+}
+
+body span {
+    color: lightgrey;
+}
+
+nav .navbar {
+    position: relative;
+}
+
+#table.active {
+    opacity: 1;
+    transition: 500ms;
+}
+
+#table {
+    opacity: 0;
+    transition: 500ms;
+}
+
+#form {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    background: white;
+    margin-top: 5%;
+    opacity: 0;
+    transition: 500ms;
+    z-index: 1000;
+    height: 100vh;
+}
+
+#form div {
+    width: 50%;
+    padding: 1rem;
+}
+
+#form div h3 {
+    padding: 0.5rem 0;
+}
+
+#form button {
+    margin: 1rem;
+}
+
+#form.active {
+    opacity: 1;
+    transition: 500ms;
+}
+
+.form.inner_wrapper {
+width: 17%;
+margin: 0 auto;
+}
+
+  
